@@ -1,5 +1,6 @@
 # Sidewinder PCIe reference design with PCIe IP configured in bridge mode 
 
-Source code and pre-compiled executable for bandwidth testing are in folder "cpp"
+A pre-compiled executable for bandwidth testing is in the folder "executables".
+Source code for that executable is in the folder "cpp"
 
 ![Design Schematic](/image/design.png)
