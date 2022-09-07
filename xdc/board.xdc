@@ -22,7 +22,7 @@ set_clock_groups -name sys_clk_100 -asynchronous -group [get_clocks sysclk100]
 set_disable_timing [get_ports pb_rst_n        ]
 set_disable_timing [get_ports ddr4_reset_n    ]
 set_disable_timing [get_ports led_ddr_cal_done]
-set_disable_timing [get_ports led_dma_link_up ]
+set_disable_timing [get_ports led_pci_link_up ]
 set_disable_timing [get_ports led_heartbeat   ]
 
 #######################################
